@@ -25,6 +25,6 @@
     @endforeach
 </table>
 <div>
-    <button type="button" onclick="location.href='/search'">新規作成</button>
+    <button type="button" onclick="location.href='/poffices/search'">新規作成</button>
 </div>
 @endsection
