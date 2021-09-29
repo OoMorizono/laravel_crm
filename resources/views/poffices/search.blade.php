@@ -10,11 +10,6 @@
     <input type="text" name='zipcode' placeholder="検索したい郵便番号">
     <input type="submit" name="submit" value="検索">
 </form>
-
-{{-- <form action="/cgi-zip/zipcode.php">
-    <input type="search" name="search" placeholder="検索したい郵便番号">
-    <input type="submit" name="submit" value="検索">
-</form> --}}
 <button type="button" onclick="location.href='{{ route('poffices.index') }}'">一覧へ戻る</button>
 
 @endsection
