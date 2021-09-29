@@ -33,8 +33,8 @@
         <label for="address">住所</label>
         <textarea name="address" id="address" cols="30" rows="10">{{ $address }}</textarea> </div>
     <div>
-        <label for="phoneNumber">電話番号</label>
-        <input type="number" name="phoneNumber" value="{{ old('phoneNumber') }}">
+        <label for="phone_number">電話番号</label>
+        <input type="text" name="phone_number" value="{{ old('phone_number') }}">
     </div>
     <div>
         <input type="submit" value="登録">

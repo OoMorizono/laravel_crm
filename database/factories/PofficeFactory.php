@@ -26,9 +26,9 @@ class PofficeFactory extends Factory
         return [
             'name' => $faker->name(),
             'email' => $faker->email(),
-            'postcode' =>$faker->postcode(),
+            'zipcode' =>$faker->zipcode(),
             'address' =>$faker->address(),
-            'phoneNumber' =>$faker->phoneNumber(),
+            'phone_number' =>$faker->phone_number(),
         ];
     }
 }

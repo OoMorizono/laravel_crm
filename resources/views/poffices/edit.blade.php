@@ -28,16 +28,16 @@
         <input type="text" name="email" value="{{ old('email', $poffice->email) }}">
     </div>
     <div>
-        <label for="postcode">郵便番号</label>
-        <input type="number" name="postcode" value="{{ old('postcode', $poffice->postcode) }}">
+        <label for="zipcode">郵便番号</label>
+        <input type="text" name="zipcode" value="{{ old('zipcode', $poffice->zipcode) }}">
     </div>
     <div>
         <label for="address">住所</label>
         <textarea name="address" id="" cols="30" rows="10">{{ old('address', $poffice->address) }}</textarea>
     </div>
     <div>
-        <label for="phoneNumber">電話番号</label>
-        <input type="number" name="phoneNumber" value="{{ old('phoneNumber', $poffice->phoneNumber) }}">
+        <label for="phone_number">電話番号</label>
+        <input type="text" name="phone_number" value="{{ old('phone_number', $poffice->phone_number) }}">
     </div>
 
     <div>

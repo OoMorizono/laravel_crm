@@ -15,9 +15,9 @@
         <td>{{ $poffice->id }}</td>
         <td>{{ $poffice->name }}</td>
         <td>{{ $poffice->email }}</td>
-        <td>{{ $poffice->postcode }}</td>
+        <td>{{ $poffice->zipcode }}</td>
         <td>{{ $poffice->address }}</td>
-        <td>{{ $poffice->phoneNumber }}</td>
+        <td>{{ $poffice->phone_number }}</td>
     </tr>
 </table>
 <div>

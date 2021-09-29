@@ -9,8 +9,6 @@ use Illuminate\Http\Request;
 
 class PofficeController extends Controller
 {
-
-
     public function index()
     {
         $poffices = Poffice::all();
@@ -52,9 +50,9 @@ class PofficeController extends Controller
 
         $poffice->name = $request->name;
         $poffice->email = $request->email;
-        $poffice->postcode = $request->postcode;
+        $poffice->zipcode = $request->zipcode;
         $poffice->address = $request->address;
-        $poffice->phoneNumber = $request->phoneNumber;
+        $poffice->phone_number = $request->phone_number;
 
         $poffice->save();
 
@@ -73,9 +71,9 @@ class PofficeController extends Controller
 
         $poffice->name = $request->name;
         $poffice->email = $request->email;
-        $poffice->postcode = $request->postcode;
+        $poffice->zipcode = $request->zipcode;
         $poffice->address = $request->address;
-        $poffice->phoneNumber = $request->phoneNumber;
+        $poffice->phone_number = $request->phone_number;
 
         $poffice->save();
 

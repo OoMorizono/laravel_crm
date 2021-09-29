@@ -26,9 +26,9 @@ class PofficeRequest extends FormRequest
         return [
             'name' => 'required|string|min:1',
             'email' => 'required|email:rfc,dns',
-            'postcode' => 'required|integer|min:1',
+            'zipcode' => 'required|integer|min:7',
             'address' => 'required|string|min:1',
-            'phoneNumber' => 'required|integer|min:1',
+            'phone_number' => 'required|integer|min:10',
         ];
     }
 }

@@ -17,9 +17,9 @@ class CreatePofficesTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email');
-            $table->string('postcode');
+            $table->text('zipcode');
             $table->text('address');
-            $table->string('phoneNumber');
+            $table->text('phone_number');
             $table->timestamps();
         });
     }
